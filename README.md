@@ -1,5 +1,5 @@
 # slack_redmine_unfurl_bolt
-unfurl private redmine link for slack using bolt python
+unfurl private redmine link for slack using bolt python docker
 
 #slack #redmine #slackeventsapi #unfurl #html2text #bolt
 
