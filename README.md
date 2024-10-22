@@ -43,15 +43,15 @@ In `Subscribe to bot events`, Add link_shared
 
 - clone from https://github.com/floyd68/slack_redmine_unfurl_bolt_docker.git
 - build with docker
- ```
- docer build -t slack_unfurler:v1 .
- ```
+```
+docker build -t slack_unfurler:v1 .
+```
 - run image with params
- ```
- docker run -d --name slack_redmine_unfurler \
+```
+docker run -d --name slack_redmine_unfurler \
      -e REDMINE_URL=http://your_redmine_url \
      -e REDMINE_API_KEY=readmine api key from http://redmine_url/my/account \
      -e SLACK_BOT_TOKEN=xoxb-xxxxxx... \
      -e SLACK_APP_TOKEN=xapp-1-xxxxx... \
      slack_unfurler:v1
- ```
+```
